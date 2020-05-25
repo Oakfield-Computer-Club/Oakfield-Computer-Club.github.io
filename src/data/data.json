@@ -1,7 +1,9 @@
 {
     "about": {
         "title": "Welcome to the club!",
-        "description": "Our club encourages adoption of best practice software development techniques for children and young adults. We want to help you get building things quickly whilst building good habits which will serve you well throughout your life."
+        "description": "Our club encourages adoption of best practice software development techniques from your first steps onwards. We want to help you get building things quickly whilst building good habits. Our club is free and staffed entirely by volunteers.",
+        "foundation": "The club was formed as a response to poor foundational software development skills being taught in UK schools, colleges and universities. We hope to learn together about what works and what does not in a fast paced environment.",
+        "membership": "Currently membership is limited to 8 students as we have 2 professional software developers and we would like a 1:4 ratio. We are hoping to expand in the future so please join our Discord to enquire about membership even if we are full."
     },
     "founders": [
         {
@@ -10,48 +12,54 @@
     ],
     "syllabus": [
         {
-            "title": "Workspace Setup - Getting Comfortable at your Desk"
+            "title": "Workspace Setup - Getting Comfortable"
         },
         {
             "title": "Operating Systems - What, When and Why?"
         },
         {
-            "title": "Environment Setup - Basic Development Environment"
+            "title": "Environment Setup - Development Environment"
         },
         {
             "title": "Workflows - What is a Workflow?"
         },
         {
-            "title": "Programming Languages - What, When and Why?"
+            "title": "Containerisation - A miracle cure?"
+        },
+        {
+            "title": "Programming Languages - Which to use?"
         },
         {
             "title": "Automated Testing - Avoid Fragile Code"
         },
         {
-            "title": "Head into the Cloud - How can we deploy our code"
+            "title": "Head into the Clouds - Deploying Our Code"
         },
         {
             "title": "Other Cloud Services - Using 3rd party APIs"
         },
         {
-            "title": "Authentication and Access Control - Let the goodies in!"
+            "title": "Authentication and Access Control"
         },
         {
-            "title": "Automated Security Auditing - Keep the baddies out!"
+            "title": "Automated Security Auditing"
         },
         {
-            "title": "Kubernetes and Computing Clusters - A Basic Introduction"
+            "title": "Kubernetes and Computing Clusters"
         }
     ],
     "howTo": [
         {
-            "title": "Join our Discord"
+            "title": "Join our Discord",
+            "href": "https://discord.gg/2FZgUF"
         },
         {
-            "title": "Browse examples on our Github (TODO: switch to GitLab)"
+            "title": "Browse examples on our Github (TODO: switch to GitLab)",
+            "href": "https://github.com/oakfield-computer-club"
         },
         {
-            "title": "Setup AWS to deploy examples on your very own server"
+            "title": "Setup AWS to deploy examples on your own server",
+            "href": "https://www.howtoforge.com/tutorial/how-to-setup-linux-server-with-aws/"
         }
     ]
 }

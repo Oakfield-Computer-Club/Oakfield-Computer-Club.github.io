@@ -14,6 +14,7 @@ const HowTos = () => (
             node {
               howTo {
                 title
+                href
               }
             }
           }
@@ -36,7 +37,7 @@ const HowTos = () => (
               <ol className="howto-list">
                 {data.allDataJson.edges[0].node.howTo.map((item, i) => (
                   <li className="howto-list-item" key={ i }>
-                    {item.title}
+                    <a href={ item.href }>{item.title}</a>
                   </li>
                 ))}
               </ol>

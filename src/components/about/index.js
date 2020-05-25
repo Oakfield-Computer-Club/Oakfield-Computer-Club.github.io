@@ -14,6 +14,8 @@ const About = () => (
             about {
               title
               description
+              foundation
+              membership
             }
           }
         }
@@ -21,6 +23,7 @@ const About = () => (
     ` }
     render={ (data) => (
       <section className="about" id="about">
+        <div className="about-banner" />
         <div className="container">
           <div className="row">
             <div className="col-10">
@@ -38,6 +41,16 @@ const About = () => (
           <div className="row">
             <div className="col-12">
               {data.allDataJson.nodes[0].about.description}
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12">
+              {data.allDataJson.nodes[0].about.foundation}
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12">
+              {data.allDataJson.nodes[0].about.membership}
             </div>
           </div>
         </div>

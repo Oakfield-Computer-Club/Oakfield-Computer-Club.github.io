@@ -12,9 +12,6 @@ const Header = () => (
             <nav className="header-nav">
               <ul className="header-nav-list">
                 <li className="header-nav-list-item">
-                  <a href="#about">About</a>
-                </li>
-                <li className="header-nav-list-item">
                   <a href="#syllabus">Syllabus</a>
                 </li>
                 <li className="header-nav-list-item">

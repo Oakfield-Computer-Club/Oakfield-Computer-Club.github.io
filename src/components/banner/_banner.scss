@@ -1,0 +1,9 @@
+.banner {
+  background-color: #f4f4f4;
+  &-image {
+    background-image: url(./banner.jpg);
+    background-size: cover;
+    height:800px;
+  }
+}
+  
